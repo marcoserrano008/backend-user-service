@@ -1,23 +1,0 @@
-
-	java:S112
-"FDefine and throw a dedicated exception instead of using a generic one.(ë’Úáøÿÿÿÿ8ïò’ƒ¤2J$bb539325-ad25-4e68-b915-375716846318
-|
-java:S1118":Add a private constructor to hide the implicit public one.(‰Ûk8÷ò’ƒ¤2J$03f5ed5f-0250-43ad-9a4a-4133df59d33e
-}
-java:S1118":Add a private constructor to hide the implicit public one.(¿‘ñÖ8øò’ƒ¤2J$20560483-8c62-4f8c-8b10-640f9d7b8983
-‚
-java:S1118":Add a private constructor to hide the implicit public one.(àæï°ÿÿÿÿÿ8øò’ƒ¤2J$7fc7b789-fdf8-4b1d-8553-ca1a772e38d1
-}
-java:S1118":Add a private constructor to hide the implicit public one.(ø“Ú8øò’ƒ¤2J$35eb0b2b-c529-406e-aca9-5b2598209cb2
-‚
-java:S1118":Add a private constructor to hide the implicit public one.(¯Ò¡‘üÿÿÿÿ8øò’ƒ¤2J$93e6131b-9379-43ab-b6ca-72e3db7bb5ea
-‚
-java:S1118$":Add a private constructor to hide the implicit public one.(¶„òÂüÿÿÿÿ8ùò’ƒ¤2J$62709c76-6f46-4a41-95df-ebc65635b5c6
-}
-java:S1118*":Add a private constructor to hide the implicit public one.(ü¶ñ8ùò’ƒ¤2J$fddeb835-3b71-49da-9b78-5eefd0b9002b
-}
-java:S11180":Add a private constructor to hide the implicit public one.(äüÂŠ8ùò’ƒ¤2J$7218af1f-f3dd-496a-817e-c71f9289bbaa
-}
-java:S11184":Add a private constructor to hide the implicit public one.(É‡å£8ùò’ƒ¤2J$96cc9d79-8a9f-4323-be9c-8586e024d04d
-y
-java:S1128"1Remove this unused import 'org.hibernate.Length'.(É­óÎøÿÿÿÿ8úò’ƒ¤2J$ca99e739-c73c-4297-80ae-607b98f0729c
