@@ -3,6 +3,7 @@ package com.social.user_service.controller;
 import com.social.user_service.dto.response.UserAuthDetailResponse;
 import com.social.user_service.entity.User;
 import com.social.user_service.repository.UserRepository;
+import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -26,6 +27,8 @@ public class UserAuthDetailsGetController {
         this.userRepository = userRepository;
     }
 
+    @Operation(summary = "Get user authentication details by username",
+            description = "Retrieve authentication details such as username and password by providing the username. Returns 404 if the user is not found.")
     @GetMapping("/username/{username}")
     public ResponseEntity<UserAuthDetailResponse> getAuthUserDetails(@PathVariable String username) {
         Optional<User> user = userRepository.findByUsername(username);
