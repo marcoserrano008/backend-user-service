@@ -1,11 +1,12 @@
 package com.social.user_service.dto.response;
 
-import io.swagger.v3.oas.annotations.media.Schema;
-import lombok.Data;
+
+import lombok.*;
 
 import java.time.LocalDateTime;
 
-@Data
+@Getter
+@Setter
 public class UserResponse {
 
     private Long id;
